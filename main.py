@@ -56,6 +56,8 @@ def users():
     return render_template('names.html', names=names)
         
 
+print('hello')
+
 
 db.create_all()
 app.run(debug=True)
