@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='someimage.png') }}" alt="some image" />
+    <a href="{{ url_for('save')}}">INSERT A NAME</a>
+    <a href="{{ url_for('users') }}">SEE USERS</a>
+    <script src="index.js"></script>
+</body>
+</html>
